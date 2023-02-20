@@ -1,5 +1,6 @@
 # QuizGame
 
+Java sayfa adımları:
 1. Kullanıcının uygulamayı başlattığında Quiz Game yazısı progress bar,özelliği ile sonradan gözükür
 
 2. Üyelik hesabınız varsa mail adresiniz ve şifrenizi girerek diğersayfaya geçiş yapabilirsiniz, Üyelik hesabınız yoksa “Bir Hesabınız Yok Mu? Üye ol” 
