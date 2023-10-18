@@ -1,22 +1,16 @@
 # QuizGame
 
-Java sayfa adımları:
-1. Kullanıcının uygulamayı başlattığında Quiz Game yazısı progress bar,özelliği ile sonradan gözükür
+Java page steps:
+1. When the user starts the application, the Quiz Game text appears later with the progress bar feature
 
-2. Üyelik hesabınız varsa mail adresiniz ve şifrenizi girerek diğersayfaya geçiş yapabilirsiniz, Üyelik hesabınız yoksa “Bir Hesabınız Yok Mu? Üye ol” 
-üye ol tıklayabilirsiniz veya şifrenizi unuttuysanız “Şifrenizi Unuttunuz Mu?” text’tine tıklamanız gerekmektedir.
+2. If you have a membership account, you can switch to the next page by entering your e-mail address and password, if you do not have a membership account, you can click "Don't have an account? Become a member" or if you have forgotten your password, you need to click on the "Forgot your password?" text.
 
-3. Bu sayfadan üyelik oluşturabilirsiniz. Tek yapmamız gereken mailinizi ve şifrenizi yazmanız yeterli olacaktır.
+3. You can create membership from this page. All we need to do is type your e-mail and password.
 
-4. Sisteme kayıtlı olan e-posta adresinizi girip devam et butonuna tıkladığınız takdirde, sizlerin yazmış olduğu e-posta adresine şifrenizi
-yenilemeniz için bir mail gönderecektir. Eğer yazmış olduğunuz e-posta kayıtlı değil ise hata mesajı ekranda görülecektir
+4. If you enter your e-mail address registered in the system and click the continue button, you will receive your password to the e-mail address you have written. Will send an e-mail for you to renew. If the e-mail you have written is not registered, an error message will appear on the screen
 
-5. Sisteme kayıtlı olan e-posta adresinizi ve şifrenizi doğru girip siteme giriş yaptığınız takdirde; sizlerin karşısına bu sayfa çıkacaktır. Bu 
-sayfa üzerinden quize başla kısmından quize başlayabilirsiniz ve çıkış bölümünden de çıkış işleminizi gerçekleştirebilirsiniz.
+5. If you enter your e-mail address and password registered in the system correctly and log in to my site; this page will appear in front of you. This you can start the quiz from the start quiz section on the page and you can log out from the exit section.
 
-6. Önceki adımda bulunan başla butonuna tıkladığınızda sorular karşınıza gelmektedir, her soru için toplam 25 saniyeniz bulunmaktadır. 25 saniye sonrasında 
-sorular işaretlenememektedir. Toplamda 10 adet soru bulunmaktadır. Soruyu işaretlediğiniz takdirde doğru ise yeşil,yanlış ise kırmızı renkle şıklarda gösterilecektir. 
-Eğer işaretlemiş olduğunuz şık doğru ise Yukarıda bulunan Doğru cevap sırayla artacaktır, aynı işlem yanlış işaretlemiş olduğunuz şıklar içinde geçerlidir. 
-Sıradaki soru text’ine tıklayıp o, soruya geçiş yapabilir. Oyunu bitir butonuna bastığınız takdir sizleri score tablosu ekranına gönderecektir.
+6. When you click on the start button in the previous step, you will be presented with questions and you will have 25 seconds for each question. After 25 seconds questions cannot be marked. There are 10 questions in total. If you mark the question, if it is correct, it will be shown in green and if it is wrong, it will be shown in red.
 
-7. Buradan işaretlemiş olduğunuz yanlış ve doğru miktarı gösterilecektir.
+7.If the option you have marked is correct, the correct answer above will increase in order, the same process will be done for the wrong option.
