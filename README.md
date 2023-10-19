@@ -13,4 +13,4 @@ Java page steps:
 
 6. When you click on the start button in the previous step, you will be presented with questions and you will have 25 seconds for each question. After 25 seconds questions cannot be marked. There are 10 questions in total. If you mark the question, if it is correct, it will be shown in green and if it is wrong, it will be shown in red.
 
-7.If the option you have marked is correct, the correct answer above will increase in order, the same process will be done for the wrong option.
+ 7.If the option you have marked is correct, the correct answer above will increase in order, the same process will be done for the wrong option.
