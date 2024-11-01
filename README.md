@@ -1,16 +1,43 @@
 # QuizGame
 
-Java page steps:
-1. When the user starts the application, the Quiz Game text appears later with the progress bar feature
+This project is a **Java and Firebase**-based quiz application where users can sign up or log in to participate in quizzes. Users can answer questions within a set time limit, view their correct/incorrect answers visually, and track their scores.
 
-2. If you have a membership account, you can switch to the next page by entering your e-mail address and password, if you do not have a membership account, you can click "Don't have an account? Become a member" or if you have forgotten your password, you need to click on the "Forgot your password?" text.
+## Features
 
-3. You can create membership from this page. All we need to do is type your e-mail and password.
+- **Sign-Up and Login**: Users can register, log in, and reset their passwords.
+- **Answering Questions**: Each question has a set time limit for users to answer.
+- **Correct/Incorrect Feedback**: After each question, users see if their answers were correct (in green) or incorrect (in red).
+- **Score Tracking**: Users can view their past performance on a score table.
 
-4. If you enter your e-mail address registered in the system and click the continue button, you will receive your password to the e-mail address you have written. Will send an e-mail for you to renew. If the e-mail you have written is not registered, an error message will appear on the screen
+## Technologies Used
 
-5. If you enter your e-mail address and password registered in the system correctly and log in to my site; this page will appear in front of you. This you can start the quiz from the start quiz section on the page and you can log out from the exit section.
+- **Java**: The primary language, handling all application functionalities.
+- **Firebase**: Manages user data and quiz questions.
+- **Android Studio**: The development environment used.
 
-6. When you click on the start button in the previous step, you will be presented with questions and you will have 25 seconds for each question. After 25 seconds questions cannot be marked. There are 10 questions in total. If you mark the question, if it is correct, it will be shown in green and if it is wrong, it will be shown in red.
+## Project Steps
 
- 7.If the option you have marked is correct, the correct answer above will increase in order, the same process will be done for the wrong option.
+1. **Start Screen**: When the app starts, the "Quiz Game" text and a progress bar appear on the screen.
+
+2. **Login Page**:
+   - If you have an account, you can proceed by entering your email and password.
+   - If you don’t have an account, click "Don’t have an account? Become a member" to sign up.
+   - If you forgot your password, click "Forgot your password?" to reset it.
+
+3. **Sign-Up**:
+   - Enter your email and password to create a new account.
+
+4. **Password Reset**:
+   - Enter your registered email and click the "Continue" button to receive a password reset email.
+   - If the email is not registered, an error message will appear on the screen.
+
+5. **Starting the Quiz**:
+   - Once logged in, you can start the quiz by selecting the "Start Quiz" option on the home page.
+   - To log out, click the "Exit" button.
+
+6. **Answering Questions**:
+   - When you click "Start Quiz," you’ll receive 10 questions, each with a 25-second timer. After 25 seconds, answers can no longer be selected.
+   - If you select an answer, correct answers will be shown in green, while incorrect answers will appear in red.
+
+7. **Tracking Correct/Incorrect Answers**:
+   - If your answer is correct, the correct answer count will increase. Similarly, incorrect answers will be tracked and displayed.
