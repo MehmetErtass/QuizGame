@@ -1,4 +1,4 @@
-# QuizGame
+# Quiz Game
 
 This project is a **Java and Firebase**-based quiz application where users can sign up or log in to participate in quizzes. Users can answer questions within a set time limit, view their correct/incorrect answers visually, and track their scores.
 
